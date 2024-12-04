@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.11.7 on win32)" generated="2024-12-04T22:10:50.794934" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="C:\Users\HP\PycharmProjects\Robot\test">
+<suite id="s1-s1" name="Custom Library" source="C:\Users\HP\PycharmProjects\Robot\test\custom_library.robot">
+<test id="s1-s1-t1" name="Validate card in the checkout page" line="14">
+<kw name="open browser and go to login page">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-12-04T22:10:51.630866" level="INFO">Opening browser 'chrome' to base url 'https://rahulshettyacademy.com/loginpagePractise/'.</msg>
+<arg>https://rahulshettyacademy.com/loginpagePractise/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-12-04T22:10:51.630866" elapsed="15.374797"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-12-04T22:11:07.006799" elapsed="2.898087"/>
+</kw>
+<status status="PASS" start="2024-12-04T22:10:51.627850" elapsed="18.277036"/>
+</kw>
+<kw name="fill the login form">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-12-04T22:11:09.916963" level="INFO">Typing text 'rahulshettyacademy' into text field 'username'.</msg>
+<arg>username</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-04T22:11:09.913874" elapsed="7.705487"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2024-12-04T22:11:17.621720" level="INFO">Typing password into text field 'password'.</msg>
+<msg time="2024-12-04T22:11:19.401990" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>password</arg>
+<arg>${password}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-04T22:11:17.620380" elapsed="2.796417"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-12-04T22:11:20.418352" level="INFO">Clicking button 'signInBtn'.</msg>
+<arg>signInBtn</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-04T22:11:20.417809" elapsed="2.269631"/>
+</kw>
+<status status="PASS" start="2024-12-04T22:11:09.905883" elapsed="12.782117"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>css:h1</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-12-04T22:11:22.688000" elapsed="3.937910"/>
+</kw>
+<kw name="Add Items To Card" owner="Shop">
+<msg time="2024-12-04T22:11:46.852325" level="INFO">Clicking button 'xpath:(//div[@class='card-footer'])[3]/button'.</msg>
+<msg time="2024-12-04T22:11:57.056082" level="INFO">Clicking button 'xpath:(//div[@class='card-footer'])[4]/button'.</msg>
+<arg>${product_list}</arg>
+<status status="PASS" start="2024-12-04T22:11:26.625910" elapsed="40.729015"/>
+</kw>
+<status status="PASS" start="2024-12-04T22:10:51.625839" elapsed="75.730532"/>
+</test>
+<doc>This file have a custom library related stff</doc>
+<status status="PASS" start="2024-12-04T22:10:50.854528" elapsed="76.507437"/>
+</suite>
+<status status="PASS" start="2024-12-04T22:10:50.816589" elapsed="76.554413"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test">Test</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Custom Library">Test.Custom Library</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

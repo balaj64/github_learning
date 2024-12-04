@@ -1,0 +1,11 @@
+datasources:0b0d7e52f54af3ffdfa01b3bf75a018e1b3804f1
+commandlineoptions:97d170e1550eee4afc0af065b78cda302a97674c
+suitesfrom:no-suites-from-option
+file:039ac62a3dc7f58103cca9b8ce0d4c2fd71e62a6
+--suite Test.Custom Library
+--suite Test.Datadriven4
+--suite Test.Page Obj Mdl
+--suite Test.Parametarization3
+--suite Test.demoPractice
+--suite Test.demoPractice1
+--suite Test.demoPractice2

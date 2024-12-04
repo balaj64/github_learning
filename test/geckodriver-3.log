@@ -1,0 +1,16 @@
+1733044177865	geckodriver	INFO	Listening on 127.0.0.1:51551
+1733044181004	mozrunner::runner	INFO	Running command: "C:\\Users\\HP\\.cache\\selenium\\firefox\\win64\\133.0\\firefox.exe" "--marionette" "--remote-debugging-por ... 1552" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofilewlf0AZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1733044181594	Marionette	INFO	Marionette enabled
+1733044182018	Marionette	INFO	Listening on port 51564
+WebDriver BiDi listening on ws://127.0.0.1:51552
+Read port: 51564
+1733044182306	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51552/devtools/browser/b4e8b296-bc84-4e68-8b2e-55a4f44996b6
+1733044241938	Marionette	INFO	Stopped listening on port 51564
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_untrustedmodules_ping

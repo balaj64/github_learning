@@ -1,0 +1,16 @@
+==============================================================================
+Test                                                                          
+==============================================================================
+Test.demoPractice2 :: To Validate login form                                  
+==============================================================================
+Handling child windows                                                ['Please email us ', ' mentor@rahulshettyacademy.com with below templ', 'e to receive response']
+ mentor@rahulshettyacademy.com with below templ
+| PASS |
+------------------------------------------------------------------------------
+Test.demoPractice2 :: To Validate login form                          | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Test                                                                  | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\HP\PycharmProjects\Robot\pabot_results\6\output.xml

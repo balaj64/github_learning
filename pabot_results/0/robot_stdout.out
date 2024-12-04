@@ -1,0 +1,14 @@
+==============================================================================
+Test                                                                          
+==============================================================================
+Test.Custom Library :: This file have a custom library related stff           
+==============================================================================
+Validate card in the checkout page                                    | PASS |
+------------------------------------------------------------------------------
+Test.Custom Library :: This file have a custom library related stff   | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Test                                                                  | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\HP\PycharmProjects\Robot\pabot_results\0\output.xml
